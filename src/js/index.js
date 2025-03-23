@@ -11,6 +11,15 @@ function myFunction() {
     loop: true,
     loopCount: Infinity,
   });
+  new Typed('#name', {
+    strings: [
+      'Gio Nurcahya Rizqi',
+    ],
+    typeSpeed: 80,
+    backSpeed: 30,
+    backDelay: 1800,
+    cursorChar: '',
+  });
 }
 
 // Toggle Dark Mode
